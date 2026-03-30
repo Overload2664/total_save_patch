@@ -1,3 +1,4 @@
+import os
 from shutil import copyfile
 
 import tkinter as tk
@@ -16,7 +17,7 @@ DEFAULT_GAME = "SHOGUN2"
 game_var = None
 
 def select_dll():
-    filepath = filedialog.askopenfilename()
+    filepath = filedialog.askopenfilename(initialdir=os.path.curdir)
     if not filepath:
         return
 
