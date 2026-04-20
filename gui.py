@@ -7,6 +7,7 @@ from tkinter import filedialog, messagebox
 from patch import apply_patches
 
 SUPPORTED_GAMES = [
+    ("NAPOLEON", "Napoleon"),
     ("SHOGUN2", "Shogun II"),
     ("ROME2", "Rome II"),
     ("ATTILA", "Attila")
