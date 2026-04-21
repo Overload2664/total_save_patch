@@ -3,6 +3,12 @@ from shutil import copyfile
 
 
 ALL_PATCHES = {
+    "EMPIRE": [
+        {
+            "0D EF 46 00 83 C4 08 B8 01":
+            "0D EF 46 00 83 C4 08 B8 00"
+        }
+    ],
     "NAPOLEON": [
         {
             "8D 58 67 00 83 C4 08 B8 01":
